@@ -1,2 +1,2 @@
-# college
+# College
 educational purpose only
