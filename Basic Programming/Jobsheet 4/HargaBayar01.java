@@ -10,5 +10,6 @@ public class HargaBayar01 {
         System.out.println("Masukkan jumlah barang yang dibeli ");
         jumlah = input.nextInt();
         total = harga*jumlah;
+        jmlDis = total*dis;
     }
 }
