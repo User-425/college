@@ -5,5 +5,9 @@ public class Gaji01 {
         Scanner input = new Scanner(System.in);
         int jmlMasuk, jmlTdkMasuk, totGaji;
         int gaji = 40000, potGaji = 25000;
+        System.out.println("Masukkan Jumlah Hari Masuk Kerja Anda: ");
+        jmlMasuk = input.nextInt();
+        System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda: ");
+        jmlTdkMasuk = input.nextInt();
     }
 }
