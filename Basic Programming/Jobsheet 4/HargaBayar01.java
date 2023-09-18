@@ -12,5 +12,7 @@ public class HargaBayar01 {
         total = harga*jumlah;
         jmlDis = total*dis;
         bayar = total - jmlDis;
+        System.out.println("Diskon yang anda dapatkan adalah "+jmlDis);
+        System.out.println("Harga yang harus dibayarkan adalah "+bayar);
     }
 }
