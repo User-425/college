@@ -10,5 +10,6 @@ public class Gaji01 {
         System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda: ");
         jmlTdkMasuk = input.nextInt();
         totGaji = (jmlMasuk*gaji) - (jmlTdkMasuk*potGaji);
+        System.out.println("Gaji yang anda terima adalah " + totGaji);
     }
 }
