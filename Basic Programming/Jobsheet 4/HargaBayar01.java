@@ -11,5 +11,6 @@ public class HargaBayar01 {
         jumlah = input.nextInt();
         total = harga*jumlah;
         jmlDis = total*dis;
+        bayar = total - jmlDis;
     }
 }
