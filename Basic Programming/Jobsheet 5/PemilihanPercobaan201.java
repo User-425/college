@@ -1,5 +1,15 @@
+import java.util.Scanner;
+
 public class PemilihanPercobaan201 {
         public static void main(String[] args) {
-        
+        Scanner input01 = new Scanner(System.in);
+        System.out.print("Nilai uas : ");
+        float uas = input01.nextFloat();
+        System.out.print("Nilai uts : ");
+        float uts = input01.nextFloat();
+        System.out.print("Nilai kuis : ");
+        float kuis = input01.nextFloat();
+        System.out.print("Nilai tugas : ");
+        float tugas = input01.nextFloat();  
     }
 }
