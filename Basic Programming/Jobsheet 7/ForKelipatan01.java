@@ -11,7 +11,7 @@ public class ForKelipatan01 {
                 counter++;
             }
         }
-        System.out.println("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n",kelipatan,counter);
-        System.out.println("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n",kelipatan,jumlah);
+        System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n",kelipatan,counter);
+        System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n",kelipatan,jumlah);
     }
 }
