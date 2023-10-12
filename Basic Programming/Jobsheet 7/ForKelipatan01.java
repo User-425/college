@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ForKelipatanNoAbsen {
+public class ForKelipatan01 {
     public static void main(String[] args) {
         int kelipatan, jumlah=0, counter=0;
         Scanner scan = new Scanner(System.in);
