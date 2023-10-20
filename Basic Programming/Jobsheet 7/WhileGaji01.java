@@ -6,5 +6,7 @@ public class WhileGaji01 {
         int jumlahKaryawan, jumlahJamLembur;
         double gajiLembur = 0, totalGajiLembur = 0;
         String jabatan;
+        System.out.println("Masukkan Jumlah Karyawan: ");
+        jumlahKaryawan = scan.nextInt();
     }
 }
