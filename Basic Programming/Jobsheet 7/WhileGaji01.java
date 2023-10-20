@@ -17,7 +17,7 @@ public class WhileGaji01 {
             jumlahJamLembur = scan.nextInt();
             i++;
             if (jabatan.equalsIgnoreCase("direktur")) {
-                gajiLembur = 0;
+                continue;
             } else if(jabatan.equalsIgnoreCase("manajer")) {
                 gajiLembur = jumlahJamLembur * 100000;
             } else if (jabatan.equalsIgnoreCase("karyawan")){
