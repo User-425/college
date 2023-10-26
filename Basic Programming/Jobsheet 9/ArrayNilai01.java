@@ -9,5 +9,9 @@ public class ArrayNilai01 {
             System.out.print("Masukkan nilai akhir ke-"+i+" : ");
             nilaiAkhir[i] = scan.nextInt();
         }
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Nilai akhir ke-"+i+" adalah "+ nilaiAkhir[i]);
+        }
     }
 }
