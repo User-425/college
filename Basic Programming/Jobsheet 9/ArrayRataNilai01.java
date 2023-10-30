@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArrayRataNilai01 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);     
 
         int jumlahLulus = 0, jumlahMhs;
         double total = 0;
