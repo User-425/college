@@ -19,7 +19,7 @@ public class BioskopWithScanner01 {
             penonton[baris-1][kolom-1] = nama;
             System.out.println("Input penonton lainya? (y/n): ");
             next = sc.nextLine();
-            if (next.equalsIgnoreCase('n')) {
+            if (next.equalsIgnoreCase("n")) {
                 break;
             }
         }
