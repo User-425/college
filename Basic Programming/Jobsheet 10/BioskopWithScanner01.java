@@ -27,10 +27,9 @@ public class BioskopWithScanner01 {
                 penonton[baris - 1][kolom - 1] = nama;
             } else if (next.equals("2")) {
                 System.out.println("Daftar Penonton:");
-                for (int i = 0; i < 4; i++) {
-                    for (int j = 0; j < 2; j++) {
-                            System.out.print(penonton[i][j] + " ");
-                    }
+                for (int i = 0; i < penonton.length; i++) {
+                    System.out.print(penonton[i][0] + " ");
+                    System.out.print(penonton[i][1]);
                     System.out.println();
                 }
             } else if (next.equals("3")) {
