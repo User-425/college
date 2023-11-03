@@ -6,6 +6,6 @@ public class BioskopWithScanner01 {
         int baris, kolom;
         String nama, next;
 
-        
+        String[][] penonton = new String[4][2];
     }
 }
