@@ -15,6 +15,11 @@ public class Quiz {
                 int answer = input.nextInt();
                 input.nextLine();
                 success = (answer == number);
+                if (answer > number) {
+                    System.out.print("Angka yang anda pilih terlalu besar!\n");
+                } else if (answer < number) {
+                   System.out.print("Angka yang anda pilih terlalu kecil!\n"); 
+                }
             } while (!success);
             System.out.print("Apakah Anda ingin mengulang permainan (Y/y)?");
             menu = input.nextLine().charAt(0);
