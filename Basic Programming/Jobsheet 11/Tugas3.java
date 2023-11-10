@@ -5,6 +5,7 @@ public class Tugas3 {
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan N (minimal 3): ");
         int n = input.nextInt();
+        int L = Integer.toString(n).length();
         if (n < 3) {
             System.out.println("Error! Masukkan N minimal 3!");
         } else {
@@ -14,7 +15,7 @@ public class Tugas3 {
             System.out.println();
             for (int x = 1; x <= n-2; x++) {
                 System.out.print(n);
-                for (int y = 1; y <= ((n-1)*2)-1; y++) {
+                for (int y = 1; y <= ((n-1)*(L+1))-L; y++) {
                     System.out.print(" ");
                 }
                 System.out.print(n);
@@ -25,13 +26,6 @@ public class Tugas3 {
                 System.out.print(n+" ");
             }
             System.out.println();
-            // for (int x = n; x >= i; x--) {
-            // System.out.print("*");
-            // }
-            // for (int i = 1; i <= n; i++) {
-
-            // System.out.println();
-            // }
         }
     }
 }
