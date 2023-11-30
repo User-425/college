@@ -1,3 +1,4 @@
+package Rekursif;
 import java.util.Scanner;
 
 public class Percobaan2 {
